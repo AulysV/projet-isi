@@ -2333,7 +2333,7 @@ body {
 <p>Imperator Dogoni &amp; Aulys, 1G1, 03/2022</p>
 <h2 class="atx" id="i-capteur--cablage-et-code">I. Capteur : câblage et code</h2>
 <h4 class="atx" id="exemple-de-cablage-possible-avec-une-carte-arduino-uno-et-un-capteur-hc-sr04-">Exemple de câblage possible avec une carte Arduino UNO et un capteur HC-SR04 :</h4>
-<p><img title="Base" alt="Base.svg" src="file:///C:/Users/aulys/Downloads/projet%20si/base.svg"></p>
+<p><img title="Base" alt="Base.svg" src="base.svg"></p>
 <ul>
 <li><p>Alimentation : <code>5V</code>&nbsp;de la carte Arduino →&nbsp;<code>VCC</code>&nbsp;du capteur</p>
 </li>
@@ -2385,7 +2385,7 @@ body {
 <p><span class="katex"><span class="katex-mathml"></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.6944em;" class="strut"></span><span class="mord mathnormal">d</span></span></span></span> correspond à <code>distance</code> ; <span class="katex"><span class="katex-mathml"></span><span aria-hidden="true" class="katex-html"><span class="base"><span style="height:0.6833em;" class="strut"></span><span class="mord">Δ</span><span class="mord mathnormal">t</span></span></span></span> correspond à <code>duration</code>. On obtient donc <code>distance = duration * 340 / (2 * 10000)</code>. </p>
 <h2 class="atx" id="ii-leds-rouge-et-verte">II. Leds rouge et verte</h2>
 <h4 class="atx" id="schema-cablage-">Schéma câblage :</h4>
-<p><img title="Led1" alt="Led1.svg" src="file:///C:/Users/aulys/Downloads/projet%20si/led1.svg"></p>
+<p><img title="Led1" alt="Led1.svg" src="led1.svg"></p>
 <h4 class="atx" id="programme-">Programme :</h4>
 <p>Permet d'allumer une led verte pour <code>d &lt; 10</code> et une led rouge pour <code>d &gt; 10</code>.</p>
 <pre><code class="fenced-code-block language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">trigPin</span> <span class="token expression"><span class="token number">13</span></span></span>
@@ -2432,7 +2432,7 @@ body {
 <span class="token punctuation">}</span></code></pre>
 <h2 class="atx" id="iii-led-rgb-permiere-partie">III. Led RGB (permière partie)</h2>
 <h4 class="atx" id="schema-cablage--1">Schéma câblage :</h4>
-<p><img title="Led2" alt="Led2" src="file:///C:/Users/aulys/Downloads/projet%20si/led2.svg"></p>
+<p><img title="Led2" alt="Led2" src="led2.svg"></p>
 <p><em>Le programme est le même que pour les leds rouge et verte.</em> On pensera à vérifier les ports des différentes pattes de la led RGB, ou les changer dans le programme.  </p>
 <h2 class="atx" id="iv-led-rgb-deuxieme-partie">IV. Led RGB (deuxième partie)</h2>
 <p><em>Le câblage n'a pas changé</em> </p>
@@ -2494,7 +2494,7 @@ body {
 <span class="token punctuation">}</span></code></pre>
 <h2 class="atx" id="v-buzzer">V. Buzzer</h2>
 <h4 class="atx" id="schema-cablage--2">Schéma câblage :</h4>
-<p><img title="Buzzer" alt="Buzzer.svg" src="file:///C:/Users/aulys/Downloads/projet%20si/buzzer.svg"></p>
+<p><img title="Buzzer" alt="Buzzer.svg" src="buzzer.svg"></p>
 <h4 class="atx" id="programme--1">Programme :</h4>
 <p>(Un peu buggé mais marche quand même)</p>
 <pre><code class="fenced-code-block language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">trigPin</span> <span class="token expression"><span class="token number">13</span></span></span>
